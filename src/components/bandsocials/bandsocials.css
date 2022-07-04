@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.drift__bandsocials img {
+        width: 200px;
+        height: 200px;
+      }
+
 .drift__bandsocials div {
     flex: 1;
     max-width: 150px;

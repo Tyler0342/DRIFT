@@ -5,19 +5,19 @@ import './bandsocials.css';
 const BandSocials = () => (
   <div className="drift__bandsocials">
     <div>
-      <img src={facebook} />
+      <img src={facebook} alt="facebook" />
     </div>
     <div>
-      <img src={twitter} />
+      <img src={twitter} alt="twitter" />
     </div>
     <div>
-      <img src={instagram} />
+      <img src={instagram} alt="instagram" />
     </div>
     <div>
-      <img src={snapchat} />
+      <img src={snapchat} alt="snapchat" />
     </div>
     <div>
-      <img src={youtube} />
+      <img src={youtube} alt="youtube" />
     </div>
     <div className="drift__socials-btn">
       <h1>Join our newsletter for exclusive access</h1>
