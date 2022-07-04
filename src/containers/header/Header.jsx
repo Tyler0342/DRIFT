@@ -15,7 +15,7 @@ const Header = () => (
 
       <div className="drift__header-content__people">
         <img src={people} />
-        <p>600 people followed DRIFT in last 24 hours</p>
+        <p>600 people joined DRIFTs mailing list in last 24 hours</p>
       </div>
     </div>
 
