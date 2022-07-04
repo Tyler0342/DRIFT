@@ -1,5 +1,5 @@
 import React from 'react';
-import { facebook, twitter, instagram, snapchat, youtube } from './imports';
+import { facebook, twitter, instagram, snapchat } from './imports';
 import './bandsocials.css';
 
 const BandSocials = () => (
