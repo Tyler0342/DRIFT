@@ -19,9 +19,11 @@ const BandSocials = () => (
     {/* <div>
       <img src={youtube} alt="youtube" />
     </div> */}
+    <h1>Join our newsletter for exclusive access</h1>
     <div className="drift__socials-btn">
-      <h1>Join our newsletter for exclusive access</h1>
+      <div>
       <button type="button">Join</button>
+      </div>
     </div>
   </div>
 );

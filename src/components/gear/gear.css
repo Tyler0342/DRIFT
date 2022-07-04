@@ -8,6 +8,12 @@
     margin: 1rem;
 }
 
+.drift__gear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .drift__gear-container__gear-title {
     flex: 1;
     max-width: 180px;
@@ -21,6 +27,11 @@
     line-height: 30px;
     color: #71E5FF;
 }
+
+.drift__gear img {
+    width: 75px;
+    height: 75px;
+  }
 
 .drift__gear-container__gear-title div {
     width: 38px;
