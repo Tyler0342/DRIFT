@@ -1,5 +1,5 @@
 import React from 'react';
-import Bio from '../../components/bio/Bio';
+import Features from '../../components/features/Features';
 import './bio.css';
 
 const bioData = [
@@ -25,11 +25,11 @@ const Bio = () => (
   <div className="drift__bios section__padding" id="bios">
     <div className="drift__bios-heading">
       <h1 className="gradient__text">About The Band</h1>
-      <p>Create an account for exclusive access to behind the scenes footage of DRIFT's practice and recording sessions!</p>
+      <p>Create an account for exclusive access to behind the scenes footage of DRIFTs practice and recording sessions!</p>
     </div>
     <div className="drift__bios-container">
       {bioData.map((item, index) => (
-        <Bio title={item.title} text={item.text} key={item.title + index} />
+        <Features title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
   </div>
