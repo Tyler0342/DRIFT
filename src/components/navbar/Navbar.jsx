@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="drift__navbar">
       <div className="drift__navbar-links">
         <div className="drift__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div className="drift__navbar-links_container">
           <p><a href="#home">Home</a></p>

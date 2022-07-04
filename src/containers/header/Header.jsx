@@ -14,13 +14,13 @@ const Header = () => (
       </div>
 
       <div className="drift__header-content__people">
-        <img src={people} />
+        <img src={people} alt="people" />
         <p>600 people joined DRIFTs mailing list in last 24 hours</p>
       </div>
     </div>
 
     <div className="drift__header-image">
-      <img src="Image Here" />
+      <img src="Image Here" alt="chilling" />
     </div>
   </div>
 );
