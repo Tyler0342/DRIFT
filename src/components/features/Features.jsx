@@ -1,5 +1,5 @@
 import React from 'react';
-import './feature.css';
+import './features.css';
 
 const Bios = ({ title, text }) => (
   <div className="drift__features-container__feature">

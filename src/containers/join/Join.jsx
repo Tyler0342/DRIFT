@@ -1,5 +1,4 @@
 import React from 'react';
-import possibilityImage from '../../assets/possibility.png';
 import './join.css';
 
 const Join = () => (
