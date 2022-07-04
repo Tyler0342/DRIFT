@@ -13,33 +13,27 @@ const Footer = () => (
     </div>
 
     <div className="drift__footer-links">
+      <div className="drift__footer-links_div">
+        <h4>Links</h4>
+        <p>Schecter.com<br />Ibanez.com<br /> Pearl.com</p>
+        <h4>Social Media</h4>
+        <p>Twitter<br />Snap Chat<br />Instagram<br /></p>
+      </div>
+      <div className="drift__footer-links_div">
+        <h4>Get in touch</h4>
+        <p>Phone</p>
+        <p>720-420-6669</p>
+        <p>Email</p>
+        <p>christian@drift.band <br /> dylan@drift.band <br /> tyler@drift.band <br /></p>
+      </div>
       <div className="drift__footer-links_logo">
         <img src={driftLogo} alt="drift_logo" />
         <p>Chonk Records, <br /> All Rights Reserved</p>
       </div>
-      <div className="drift__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
-      </div>
-      <div className="drift__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
-      </div>
-      <div className="drift__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>Drift</p>
-        <p>phone number</p>
-        <p>DRIFTband@gmail.com</p>
-      </div>
     </div>
 
     <div className="drift__footer-copyright">
-      <p>@2022 DRIFT. All rights reserved.</p>
+      <p>@2022 DRIFTband. All rights reserved.</p>
     </div>
   </div>
 );

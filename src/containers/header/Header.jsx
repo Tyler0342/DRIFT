@@ -8,10 +8,10 @@ const Header = () => (
       <h1 className="gradient__text">Let&apos;s make some music!</h1>
       <p>DRIFT creates music without boundries</p>
 
-      <div className="drift__header-content__input">
+      {/* <div className="drift__header-content__input">
         <input type="email" placeholder="Your Email Address" />
         <button type="button">Join</button>
-      </div>
+      </div> */}
 
       <div className="drift__header-content__people">
         <img src={people} alt="people" />

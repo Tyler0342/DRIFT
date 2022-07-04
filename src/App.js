@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Blog, Join, Bio, Drift, Header } from './containers';
+import { Footer, Join, Bio, Header } from './containers';
 import { Gear, BandSocials, Navbar } from './components';
 
 import './App.css';
@@ -11,11 +11,11 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Drift />
+    {/* <Drift /> */}
     <Bio />
     <BandSocials />
     <Gear />
-    <Blog />
+    {/* <Blog /> */}
     <Join />
     <Footer />
   </div>

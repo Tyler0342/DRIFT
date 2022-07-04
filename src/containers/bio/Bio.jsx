@@ -5,15 +5,15 @@ import './bio.css';
 const bioData = [
   {
     title: 'Christian',
-    text: 'AKA Knife Pickin Christian.',
+    text: 'Guitar/Vocals',
   },
   {
     title: 'Dylan',
-    text: 'Slappin and pickin dem chonky basslines.',
+    text: 'Bass/Vocals',
   },
   {
     title: 'Tyler',
-    text: 'Likes to beat the shit out of the drumset.',
+    text: 'Drums/Vocals',
   },
   {
     title: 'We are DRIFT',
@@ -24,7 +24,7 @@ const bioData = [
 const Bio = () => (
   <div className="drift__bios section__padding" id="bios">
     <div className="drift__bios-heading">
-      <h1 className="gradient__text">About The Band</h1>
+      <h1 className="gradient__text">Who is DRIFT?</h1>
     </div>
     <div className="drift__bios-container">
       {bioData.map((item, index) => (
