@@ -1,4 +1,4 @@
-.drift__features-container__feature {
+.drift__gear-container__gear {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     margin: 1rem;
 }
 
-.drift__features-container__feature-title {
+.drift__gear-container__gear-title {
     flex: 1;
     max-width: 180px;
     margin-right: 2rem;
 }
 
-.drift__features-container__feature-title h1 {
+.drift__gear-container__gear-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
@@ -23,7 +23,7 @@
     color: #fff;
 }
 
-.drift__features-container__feature-title div {
+.drift__gear-container__gear-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
@@ -31,13 +31,13 @@
     margin-bottom: 0.25rem;
 }
 
-.drift__features-container_feature-text {
+.drift__gear-container_gear-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.drift__features-container_feature-text p {
+.drift__gear-container_gear-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -46,17 +46,17 @@
 }
 
 @media screen and (max-width: 550px) {
-    .drift__features-container__feature-title h1 {
+    .drift__gear-container__gear-title h1 {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .drift__features-container_feature-text p {
+    .drift__gear-container_gear-text p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .drift__features-container__feature {
+    .drift__gear-container__gear {
         margin: 1rem 0;
     }
 }

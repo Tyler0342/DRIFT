@@ -1,11 +1,11 @@
-.drift__bio {
+.drift__bios {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.drift__bio-heading {
+.drift__bios-heading {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -16,16 +16,16 @@
     margin-right: 5rem;
 }
 
-.drift__bio-heading h1 {
+.drift__bios-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
 }
 
-.drift__bio-heading p {
+.drift__bios-heading p {
     color: var(--color-subtext);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500;
     font-family: var(--font-family);
@@ -33,7 +33,7 @@
     margin-top: 2rem;
 }
 
-.drift__bio-container {
+.drift__bios-container {
     flex: 1.5;
     display: flex;
     justify-content: flex-start;
@@ -42,18 +42,18 @@
 }
 
 @media screen and (max-width: 990px) {
-    .drift__bio {
+    .drift__bios {
         flex-direction: column;
     }
 
-    .drift__bio-heading {
+    .drift__bios-heading {
         margin: 0 0 2rem 0;
     }
 }
 
 
 @media screen and (max-width: 550px) {
-    .drift__bio-heading h1 {
+    .drift__bios-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }
