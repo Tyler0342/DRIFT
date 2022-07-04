@@ -27,3 +27,4 @@ const BandSocials = () => (
 );
 
 export default BandSocials;
+

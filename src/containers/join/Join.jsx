@@ -4,7 +4,7 @@ import './join.css';
 const Join = () => (
   <div className="drift__join section__padding" id="join">
     <div className="drift__join-image">
-      <img src={"image here"} alt="join" />
+      <img src="image here" alt="join" />
     </div>
     <div className="drift__join-content">
       <h4>Create an Account to Stay Up To Date With The Band</h4>
