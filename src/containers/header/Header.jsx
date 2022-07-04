@@ -1,5 +1,5 @@
 import React from 'react';
-import people from '../../assets/people.png';
+import { Drift, people } from './imports';
 import './header.css';
 
 const Header = () => (
@@ -20,7 +20,7 @@ const Header = () => (
     </div>
 
     <div className="drift__header-image">
-      <img src="Image Here" alt="chilling" />
+      <img src={Drift} alt="Drift" />
     </div>
   </div>
 );
