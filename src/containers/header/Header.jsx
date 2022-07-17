@@ -5,7 +5,7 @@ import './header.css';
 const Header = () => (
   <div className="drift__header section__padding" id="home">
     <div className="drift__header-content">
-      <h1 className="gradient__text">Let&apos;s make some music!</h1>
+      <h1 className="gradient__text">DRIFT</h1>
       <p>DRIFT creates music without boundries</p>
 
       {/* <div className="drift__header-content__input">
